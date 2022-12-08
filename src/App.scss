@@ -1,0 +1,28 @@
+@import 'node_modules/vanilla-framework';
+@include vanilla;
+
+body {
+  margin: 2rem;
+}
+
+hr {
+  margin: 1rem 0 1rem 0;
+}
+
+.p-heading--4 {
+  font-weight: $font-weight-bold;
+}
+
+.p-card__header {
+  padding-bottom: 0;
+}
+
+.p-card__content {
+  margin-top: 1rem;
+}
+
+@media (min-width: 1035px) {
+  .p-heading-container {
+    height: 7rem;
+  }
+}
