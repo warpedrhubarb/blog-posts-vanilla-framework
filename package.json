@@ -1,11 +1,19 @@
 {
-  "name": "fetch-blog-posts",
-  "version": "0.1.0",
+  "name": "blog-posts-vanilla-framework",
+  "version": "0.2.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warpedrhubarb/blog-posts-vanilla-framework.git"
+  },
+  "keywords": [
+    "vanilla-framework"
+  ],
+  "bugs": {
+    "url": "github.com/warpedrhubarb/blog-posts-vanilla-framework/issues"
+  },
+  "homepage": "https://blog-posts-vanilla-framework.vercel.app/",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -15,15 +23,13 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
     "eject": "react-scripts eject",
     "build-css": "sass -w --load-path=node_modules src:dist --style=compressed",
     "watch-css": "npm run build-css && sass --load-path=node_modules -w src:dist --style=compressed"
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
   },
   "browserslist": {
